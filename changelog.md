@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.0 BETA]
+### Added
+- Money system added.
+- Cash system added.
+- Contraband shop added.
+- Inmate team can close if there are not enough guards playing.
+- ID cards added to allow entry to secure areas.
+
+### Changed
+- Gate opening and closing causing lag should be fixed.
+- Tags should be fixed.
+- Kill streaks now reward cash for 2 consecutive or more kills.
+- Kill streaks now reward a variety of items or weapons for 2 consecutive or more kills.
+- (?) Guards now have a chance of dropping cash on death.
+
+
 ## [0.0.60 BETA]
 ### Added
 - Chat formatting based on group.
