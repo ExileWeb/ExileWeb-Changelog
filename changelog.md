@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
+## [1.0.1 BETA]
+### Added
+- Added a fix to innocent detection.
+Notes: Inmates causing trouble (showing off contraband, fighting, etc) will have a timer until they're innocent again. Guard can only handcuff an inmate while they're not innocent. This also means that guard abuse detection can also be enabled as it didn't previously work due to this.
 
 ## [1.0.0 BETA]
 ### Added
