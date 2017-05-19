@@ -3,6 +3,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [1.7.0 YT-DEV]
+### Added
+- Applied client modification detection
+- Applied chat filter
+- Treadmills have been temporarily removed, see below for more details
+- Work on new prison jobs has started, but will not be finished in this update
+- Players that are enrolled in a job now have their freetime displayed as work
+- Players that are enrolled in a job can now only work during their freetime
+- Activities between 2200 and 0500 hours (10PM-5AM) are being looked into, the possibility of completely skipping the night period is also being considered
+
+### Changed
+- Removed artificial neural network implemented in about [1.6.0 YT-STABLE]
+- Applied fix to prevent money duplication
+
+Treadmills are a noticeably experimental feature, and are constantly being tweaked with. Through trial and error, it's been concluded that we cannot knockback or bounce the player, however the solution we're using can (not as often) cause the same glitch as bouncing them.
+
+In 1.7.0 we are updating the treadmill class to allow more control for the player using it, some updates include the player being able to change the treadmill speed (examples of a higher speed would be an increased chance of the player receiving a temporary blindness effect, to simulate running long distances in real life), others would be a higher multiplier of how fast the players speed and stamina would increase.
+
+(1.0.X to 1.6.7 are not public, any major updates are listed in 1.7.0)
+
 ## [1.0.1 BETA]
 ### Added
 - Added a fix to innocent detection.
